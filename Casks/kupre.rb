@@ -1,24 +1,24 @@
 cask "kupre" do
-  version "0.2.2"
+  version "0.3.0"
 
   on_macos do
     on_arm do
-      sha256 "1663432e299ecb3a4c6ada67e42760fc03633bad67cacd955c6e871ddd465f06"
-      url "https://github.com/Rusty-Gopher/kupre/releases/download/v0.2.2/kupre_darwin_arm64.tar.gz"
+      sha256 "00f3324ad443aa3986a2380e90294e66db8419f1f06eba0f062f47819478b0d7"
+      url "https://github.com/Rusty-Gopher/kupre/releases/download/v0.3.0/kupre_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "1df1557242064e07b99146f5f0e3e4bc5435335c520efa2a81121e11eab9eeeb"
-      url "https://github.com/Rusty-Gopher/kupre/releases/download/v0.2.2/kupre_darwin_amd64.tar.gz"
+      sha256 "358a288c29ecff3148996a2ef87807e65ac3c059fc7834f8e7e1e9aaa916a8a1"
+      url "https://github.com/Rusty-Gopher/kupre/releases/download/v0.3.0/kupre_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "d4887406699b29d6515b84742f835c7831462a12e74766531521a46e5bf60ec0"
-      url "https://github.com/Rusty-Gopher/kupre/releases/download/v0.2.2/kupre_linux_arm64.tar.gz"
+      sha256 "29e725189def5624bb80127eec34c0951d9ed60e3ae24109e405633ace94d448"
+      url "https://github.com/Rusty-Gopher/kupre/releases/download/v0.3.0/kupre_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "80840ac18571efd75c52a8462153c8c9e68102f9e3b669c4877ce094cb846734"
-      url "https://github.com/Rusty-Gopher/kupre/releases/download/v0.2.2/kupre_linux_amd64.tar.gz"
+      sha256 "f76a6bbc28bdb490724a886c297453fb66184f4f802f59ff8e1dbb1e5885de7d"
+      url "https://github.com/Rusty-Gopher/kupre/releases/download/v0.3.0/kupre_linux_amd64.tar.gz"
     end
   end
 

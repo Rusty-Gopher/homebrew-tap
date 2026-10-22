@@ -3,46 +3,46 @@ kind: Plugin
 metadata:
   name: kupre
 spec:
-  version: v0.2.2
+  version: v0.3.0
   platforms:
     - bin: kupre
-      uri: https://github.com/Rusty-Gopher/kupre/releases/download/v0.2.2/kupre_darwin_amd64.tar.gz
-      sha256: 1df1557242064e07b99146f5f0e3e4bc5435335c520efa2a81121e11eab9eeeb
+      uri: https://github.com/Rusty-Gopher/kupre/releases/download/v0.3.0/kupre_darwin_amd64.tar.gz
+      sha256: 358a288c29ecff3148996a2ef87807e65ac3c059fc7834f8e7e1e9aaa916a8a1
       selector:
         matchLabels:
           os: darwin
           arch: amd64
     - bin: kupre
-      uri: https://github.com/Rusty-Gopher/kupre/releases/download/v0.2.2/kupre_darwin_arm64.tar.gz
-      sha256: 1663432e299ecb3a4c6ada67e42760fc03633bad67cacd955c6e871ddd465f06
+      uri: https://github.com/Rusty-Gopher/kupre/releases/download/v0.3.0/kupre_darwin_arm64.tar.gz
+      sha256: 00f3324ad443aa3986a2380e90294e66db8419f1f06eba0f062f47819478b0d7
       selector:
         matchLabels:
           os: darwin
           arch: arm64
     - bin: kupre
-      uri: https://github.com/Rusty-Gopher/kupre/releases/download/v0.2.2/kupre_linux_amd64.tar.gz
-      sha256: 80840ac18571efd75c52a8462153c8c9e68102f9e3b669c4877ce094cb846734
+      uri: https://github.com/Rusty-Gopher/kupre/releases/download/v0.3.0/kupre_linux_amd64.tar.gz
+      sha256: f76a6bbc28bdb490724a886c297453fb66184f4f802f59ff8e1dbb1e5885de7d
       selector:
         matchLabels:
           os: linux
           arch: amd64
     - bin: kupre
-      uri: https://github.com/Rusty-Gopher/kupre/releases/download/v0.2.2/kupre_linux_arm64.tar.gz
-      sha256: d4887406699b29d6515b84742f835c7831462a12e74766531521a46e5bf60ec0
+      uri: https://github.com/Rusty-Gopher/kupre/releases/download/v0.3.0/kupre_linux_arm64.tar.gz
+      sha256: 29e725189def5624bb80127eec34c0951d9ed60e3ae24109e405633ace94d448
       selector:
         matchLabels:
           os: linux
           arch: arm64
     - bin: kupre.exe
-      uri: https://github.com/Rusty-Gopher/kupre/releases/download/v0.2.2/kupre_windows_amd64.zip
-      sha256: d7cabac02ca633d0859ad3de1b30351ab356f8837747760c78324e46c406a69a
+      uri: https://github.com/Rusty-Gopher/kupre/releases/download/v0.3.0/kupre_windows_amd64.zip
+      sha256: 89a0af09bc7f5a24b6ae2495e2a9b12ca386a6c74b2863001af4336853316821
       selector:
         matchLabels:
           os: windows
           arch: amd64
     - bin: kupre.exe
-      uri: https://github.com/Rusty-Gopher/kupre/releases/download/v0.2.2/kupre_windows_arm64.zip
-      sha256: 130daaf4d72b7c8b660be12ce85f45da7b7e67f5fccb5afe33a574b1195b0173
+      uri: https://github.com/Rusty-Gopher/kupre/releases/download/v0.3.0/kupre_windows_arm64.zip
+      sha256: c26bb82b2787f4d2d3411e816522fa03086e7f3a2a40d82f9d94754954bd503c
       selector:
         matchLabels:
           os: windows
